@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "it": "^1.1.1"
+  },
+  "name": "package",
+  "version": "1.0.0",
+  "description": "const hostname = '1const port = 3000;",
+  "main": "  res.end('Hello World');",
+  "devDependencies": {
+    "coffee-script": "^1.3.3"
+  },
+  "scripts": {
+    "test": "});"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cl"
+  },
+  "author": "",
+  "license": "ISC"
+}
