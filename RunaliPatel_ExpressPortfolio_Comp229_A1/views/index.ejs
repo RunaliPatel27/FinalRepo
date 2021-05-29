@@ -1,7 +1,17 @@
 <%- include partials/header.ejs %>
 <%- include partials/mainnav.ejs %>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-  
-</html>
+
+    <% if (title == "Home") { %>
+      <%- include partials/home.ejs %>
+        <% } %>
+    <% if (title == "About") { %>
+          <%-include partials/aboutme.ejs %>
+            <% } %>
+    <% if (title == "Projects") { %>
+          <%- include partials/home.ejs %>
+            <% } %>
+    <% if (title == "Services") { %>
+          <%- include partials/services.ejs %>
+            <% } %>
+
+<%- include partials/footer.ejs %>
