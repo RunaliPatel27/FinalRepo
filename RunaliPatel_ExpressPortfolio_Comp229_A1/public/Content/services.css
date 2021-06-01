@@ -1,3 +1,4 @@
+/*File name: services.css, Name: Runali Patel, Student ID: 301110236, Date: 30/05/2021*/
 * {
     box-sizing: border-box;
   }
@@ -36,4 +37,8 @@
   
   h1{
       color:aqua;
+      text-align: center;
+  }
+  h6{
+    color: white;
   }

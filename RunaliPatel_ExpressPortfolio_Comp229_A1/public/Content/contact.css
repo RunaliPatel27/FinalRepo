@@ -1,6 +1,7 @@
+/*File name: contact.css, Name: Runali Patel, Student ID: 301110236, Date: 30/05/2021*/
 .body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: #333;;
   }
   
   * {
@@ -47,7 +48,7 @@
   }
   
   /* Set a style for the submit button */
-  .registerbtn {
+  .sendbtn {
     background-color: #04AA6D;
     color: white;
     padding: 16px 20px;
@@ -58,17 +59,18 @@
     opacity: 0.9;
   }
   
-  .registerbtn:hover {
-    opacity: 1;
+  .sendbtn:hover {
+    opacity: 2;
   }
-  
-  /* Add a blue text color to links */
-  a {
-    color: dodgerblue;
-  }
-  
-  /* Set a grey background color and center the text of the "sign in" section */
-  .signin {
-    background-color: #f1f1f1;
+  h1{
     text-align: center;
+    color: aqua;
+  }
+ p{
+  text-align: center;
+  color: white;
+ }
+  label
+  {
+    color: white;
   }
